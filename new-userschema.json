@@ -1,0 +1,29 @@
+{
+  "title": "new user",
+  "description": "describes properties required to create a user",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string",
+      "description": "email of the account user"
+    },
+    "user_password": {
+      "type": "string",
+      "description": "password of account"
+    },
+    "user_phone": {
+      "type": "string",
+      "description": "phone of user account"
+    },
+    "user_location": {
+      "type": "object",
+      "description": " user Location"
+    }
+  },
+  "required": [
+    "user_email",
+    "user_password",
+    "user_phone",
+    "user_location"
+  ]
+}

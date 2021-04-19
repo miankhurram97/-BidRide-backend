@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Home</title>
+            
+        <style>
+        </style>
+    </head>
+    <body>
+           
+            
+        <h5><%= tittle %></h5>
+                <!-- <a href=""><button>Login</button></a> -->
+           <form method="POST" action="/users/login">
+            <label>Email</label>
+            <input name=user_email type="email">
+            <label>Password</label>
+            <input name=user_password type="password">
+            <button type="submit">Login</button>
+           </form>
+
+    </body>
+</html>
